@@ -12,16 +12,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <!-- <style>
+    <style>
       table,
       th,
       td {
         border: 1px solid black;
         border-collapse: collapse;
       }
-    </style> -->
+
+      .mojaTabelka {
+        background-color: aqua;
+      }
+    </style>
   </head>
   <body>
     <h2>Table</h2>
+
+    <table class="mojaTabelka">
+      <thead>
+        <!-- tr = table row -->
+        <tr>
+          <th>Name</th>
+          <th>Last Name</th>
+          <th>Age</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="2">John Doe</td>
+          <td>30</td>
+          <td>
+            <button>DELETE</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Jane</td>
+          <td>Doe</td>
+          <td>25</td>
+          <td>
+            <button>DELETE</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Jack</td>
+          <td>Doe</td>
+          <td>15</td>
+          <td>
+            <button>&times;</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <select name="" id="">
+      <option value=""></option>
+      <option value=""></option>
+      <option value=""></option>
+    </select>
+
+    <ul>
+      <li>Line item 1 <button>DELETE</button></li>
+      <li>Line item 2 <button>DELETE</button></li>
+      <li>Line item 3 <button>DELETE</button></li>
+      <li>Line item 4 <button>DELETE</button></li>
+      <li>Line item 5 <button>DELETE</button></li>
+    </ul>
+
+    <ol class="mojaTabelka">
+      <li>Line item 1 <button>DELETE</button></li>
+      <li>Line item 2 <button>DELETE</button></li>
+      <li>Line item 3 <button>DELETE</button></li>
+      <li>Line item 4 <button>DELETE</button></li>
+      <li>Line item 5 <button>DELETE</button></li>
+    </ol>
+
+    <ul>
+      <li>Line item 1 <button>DELETE</button></li>
+      <li>Line item 2 <button>DELETE</button></li>
+      <li>
+        Line item 3
+        <ul>
+          <li>Line item 1 <button>DELETE</button></li>
+          <li>Line item 2 <button>DELETE</button></li>
+          <li>Line item 3 <button>DELETE</button></li>
+          <li>Line item 4 <button>DELETE</button></li>
+          <li>Line item 5 <button>DELETE</button></li>
+        </ul>
+      </li>
+      <li>Line item 4 <button>DELETE</button></li>
+      <li>Line item 5 <button>DELETE</button></li>
+    </ul>
   </body>
 </html>

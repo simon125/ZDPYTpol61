@@ -33,94 +33,103 @@
     <nav>
       <a href="./about.html">About</a>
       <a href="./profile.html">Profile</a>
+      <a href="https://www.google.com" target="_blank">Google</a>
     </nav>
 
     <br />
     <br />
     <br />
-    <button>Click me</button>
-    <button>Click me</button>
-    <button>Click me</button>
-    <br />
-    <br />
-    <div>
-      <input disabled />
-    </div>
-    <div>
-      <input type="text" value="Testowa wartość" />
-    </div>
-    <div>
-      <input
-        type="text"
-        placeholder="Enter your name (max 10char)"
-        maxlength="10"
-      />
-    </div>
 
-    <div>
-      <label>
-        Podaj swój wiek
-        <input type="number" step="10" />
-      </label>
-    </div>
+    <input />
+    <div id="" class="" name=""></div>
 
-    <div>
-      <label for="checkbox01">Checkbox 1</label>
-      <input type="checkbox" id="checkbox01" />
-      <label for="checkbox02">Checkbox 2</label>
-      <input type="checkbox" id="checkbox02" />
-      <label for="checkbox03">Checkbox 3</label>
-      <input type="checkbox" id="checkbox03" />
-    </div>
+    <section id=""></section>
 
-    <div>
-      <input checked type="radio" name="grupa" id="id1" />
-      <input type="radio" name="grupa" id="id2" />
-      <input type="radio" name="grupa" id="id3" />
-    </div>
+    <input
+      id="wartość_dowolna"
+      class="wartość_dowolna"
+      name="wartość_dowolna"
+      type="text"
+      placeholder="Max 20 char"
+      maxlength="20"
+    />
+    <!-- prykład 1 -->
+    <label for="userName">User name: </label>
+    <input id="userName" type="text" value="Test123" disabled />
+    <!-- przykład 2 -->
+    <label
+      >Password:
+      <input id="password" type="password" />
+    </label>
 
-    <div>
-      <input type="color" />
-    </div>
+    <input type="text" minlength="5" maxlength="20" />
 
-    <div>
-      <input type="range" />
-    </div>
+    <input value="20" type="range" min="20" max="100" step="20" />
 
-    <div>
-      <input type="date" />
-    </div>
+    <input type="date" />
 
-    <div>
-      <input type="file" multiple />
-    </div>
+    <input type="color" />
 
-    <div>
-      <textarea name="" id="" cols="30" rows="10">
-Test123
-      </textarea>
-    </div>
+    <input type="checkbox" checked />
 
-    <div>
-      <label for="country">wybierz państwo</label>
-      <select name="" id="country">
-        <option disabled value="polska">Polska</option>
-        <option value="niemcy">Niemcy</option>
-        <option selected value="usa">USA</option>
-        <option value="kanada">Kanada</option>
+    <label>
+      Is adult:
+      <input type="checkbox" />
+    </label>
+
+    <label>
+      0-10 lat
+      <input type="radio" name="grupaWiekowa" />
+    </label>
+    <label>
+      11-20 lat
+      <input type="radio" name="grupaWiekowa" />
+    </label>
+    <label>
+      21+
+      <input type="radio" name="grupaWiekowa" />
+    </label>
+    <!-- TODO jaki atrybut do określania rozmiaru pliku -->
+    <input type="file" name="" id="" accept=".jpg" />
+
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+
+    <button id="" class="" type="button">Click me</button>
+    <br /><br /><br />
+    <form>
+      <input type="text" placeholder="Enter name" />
+      <input type="password" placeholder="Enter password" />
+
+      <label for="ageGrup"> Grupa wiekowa </label>
+      <select name="" id="ageGrup">
+        <option value="0-10">0-10</option>
+        <option value="11-20" selected>11-20</option>
+        <option value="21+">21+</option>
       </select>
-    </div>
+
+      <button type="submit">Submit Form</button>
+    </form>
 
     <br />
     <br />
-    <br />
+    <hr />
+    <br /><br />
 
     <form>
-      <input type="email" placeholder="Email" />
-      <input type="password" placeholder="Password" />
-      <input type="password" placeholder="Repeat password" />
-      <button type="submit">Submit</button>
-      <button type="reset">Reset</button>
+      <input
+        type="text"
+        placeholder="5-10 characters"
+        minlength="5"
+        maxlength="10"
+      />
+
+      <label>
+        Gender:
+        <select name="" id="">
+          <option value="male">Male</option>
+          <option selected value="female">Femal</option>
+        </select>
+      </label>
     </form>
   </body>
 </html>

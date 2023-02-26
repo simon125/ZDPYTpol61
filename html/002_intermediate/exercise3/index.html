@@ -14,5 +14,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <div>
+      <h2>Kierunek</h2>
+      <label>
+        Grecja
+        <input type="checkbox" name="grecja" />
+      </label>
+    </div>
+    <div>
+      <label>
+        Włochy
+        <input type="checkbox" name="włochy" />
+      </label>
+    </div>
+    <div>
+      <label>
+        Hiszpania
+        <input type="checkbox" name="hiszpania" />
+      </label>
+    </div>
+
+    <div>
+      <h2>Wyżywienie</h2>
+      <label>
+        All inclusive
+        <input type="radio" name="wyzywienie" />
+      </label>
+    </div>
+    <div>
+      <label>
+        Dwa posiłki
+        <input type="radio" name="wyzywienie" />
+      </label>
+    </div>
+    <div>
+      <label>
+        Śniadania
+        <input type="radio" name="wyzywienie" />
+      </label>
+    </div>
+
+    <div>
+      <h2>Zakres cenowy</h2>
+      <label>
+        Cena min 1000pln
+        <input type="range" min="1000" max="10000" step="100" />
+      </label>
+    </div>
+    <div>
+      <label>
+        Cena max 10000pln
+        <input type="range" min="1000" max="10000" step="100" />
+      </label>
+    </div>
+
+    <div>
+      <h2>Czas Pobytu</h2>
+      <label for="dataWylotu">Data wylotu</label>
+      <input type="date" id="dataWylotu" />
+    </div>
+    <div>
+      <label for="dataPrzylotu">Data przylotu</label>
+      <input type="date" id="dataPrzylotu" />
+    </div>
+
+    <div>
+      <h2>Lotnisko</h2>
+      <select>
+        <option value="poznan">Poznań</option>
+        <option value="wroclaw">Wrocław</option>
+        <option value="warszawa">Warszawa</option>
+      </select>
+    </div>
+  </body>
 </html>
