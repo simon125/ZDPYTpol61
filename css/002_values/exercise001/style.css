@@ -1,0 +1,102 @@
+/* body {
+  background-color: gray;
+} */
+
+/* sol 1 */
+/* .heading {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+
+p {
+  color: red;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  background-color: blueviolet;
+}
+
+.list-item--white {
+  background-color: white;
+} */
+
+/* sol 2 */
+
+/* body {
+  background-color: gray;
+}
+
+.heading {
+  text-align: center;
+}
+
+p {
+  color: red;
+  font-weight: bold;
+  font-size: medium;
+}
+
+li {
+  background-color: purple;
+}
+
+.list-item--white {
+  background-color: white;
+} */
+
+/* sol 3 */
+/* 
+body {
+  background-color: gray;
+ border-top: 15px black solid;
+  border-bottom: 15px black solid;
+  border-right: 5px black solid; 
+}
+.heading {
+  text-align: center;
+}
+p {
+  color: red;
+}
+
+li {
+  background-color: purple;
+}
+.list-item--white {
+  background-color: white;
+} */
+
+/* sol 4 */
+
+body {
+  background-color: grey;
+}
+
+.heading {
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-weight: lighter;
+}
+
+p {
+  color: red;
+  font-weight: bolder;
+}
+
+ul {
+  margin: 80px;
+}
+
+.list-item--white {
+  background-color: white;
+}
+
+li {
+  background-color: purple;
+}

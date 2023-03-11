@@ -5,38 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      :root {
-        font-size: 62.5%; /* 16px (defaultowa wartość) x 62.5% = 10px  */
+      * {
+        box-sizing: border-box;
       }
 
-      .container {
-        height: 600px;
-        width: 400px;
-        background-color: aqua;
+      :root {
+        font-size: 62.5%;
+      }
+
+      body {
+        margin: 0;
       }
 
       p {
-        font-size: 24px;
+        font-size: 20px;
+        height: 100px;
+        background-color: aquamarine;
+        width: 1000px;
+      }
+
+      span {
+        display: inline-block;
+        width: 50%; /*  50% z 1000px = 500px */
+        background-color: red;
       }
 
       div {
-        font-size: 1rem;
-      }
+        font-size: 1rem; /* 10px */
+        font-size: 1.8rem; /* 18px */
+        font-size: 2.5rem; /* 25px */
 
-      .inner-div {
-        background-color: red;
-        width: 50%; /* 200px */
-        height: 50%; /* 300px */
+        background-color: coral;
+        height: 25vh; /* liczba/wartość liczbowa odnosi się do procentu, vh odnosi się do wysokości view portu */
+        width: 50vw; /* liczba/wartość liczbowa odnosi się do procentu, vw odnosi się do szerokości view portu (ekranu)*/
       }
 
       button {
+        font-size: 1.7rem;
+        padding: 1em 2em;
         background-color: green;
         border: none;
-        border-radius: 10px;
-        font-size: 2rem;
-        /* padding: top right bottom left; */
-        /* padding: y x; */
-        padding: 0.5em 1em;
+        border-radius: 5px;
+        color: white;
+        margin: 20px;
       }
     </style>
   </head>
@@ -44,6 +55,8 @@
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae,
       aperiam?
+
+      <span>TESTOWY TEKST</span>
     </p>
     <div>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, quis.

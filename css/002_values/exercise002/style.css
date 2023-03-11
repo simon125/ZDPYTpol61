@@ -1,0 +1,61 @@
+/*
+- zmienić kolor tła
+- zmienić kolor czcionki
+- zmienić zaokrąglenia
+- usunąć ramkę (która wsytępuje natywnie) - none
+- ustawić szerokość jednego z przycisków tak żeby zajmował całą dostępną szerokość 
+*/
+
+/* .btn {
+  margin: 5px;
+}
+
+.btn--submit {
+  background-color: green;
+} */
+
+/* .btn {
+  width: 80px;
+  height: 40px;
+  color: white;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+}
+.btn--submit {
+  background-color: green;
+}
+
+.btn--edit {
+  background-color: blue;
+}
+
+.btn--block {
+  width: 100%;
+}
+
+.btn--reset {
+  background-color: red;
+} */
+
+.btn {
+  display: block;
+  border: none;
+  margin-bottom: 15px;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+}
+
+.btn--submit {
+  background-color: green;
+}
+
+.btn--edit {
+  background-color: blue;
+  width: 100%;
+}
+
+.btn--reset {
+  background-color: red;
+}

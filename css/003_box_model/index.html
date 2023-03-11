@@ -5,19 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      * {
+      /* * {
         box-sizing: border-box;
-      }
+      } */
+
       body {
-        margin: 0;
+        /* margin: 0; */
       }
+
       .box-model {
         margin: 20px;
+
+        /*  margin: górny prawy dolny lewy; */
+        /* margin: 20px 30px 40px 100px; */
+
         background-color: aqua;
         border: 10px solid red;
+        /*  padding: górny prawy dolny lewy; */
+        /* padding: 20px 30px 40px 100px; */
+
         padding: 20px;
 
         width: 300px;
+
+        display: inline-block;
+      }
+
+      button {
+        box-sizing: border-box;
+        /* padding: oś-y (vertical) oś-x (horizontal); */
+        padding: 5px 20px;
+        width: 200px;
+
+        /* margin-top: 100px;
+        margin-left: 100px;
+        margin-bottom: 20px;
+        margin-right: 100px; */
       }
     </style>
   </head>
@@ -25,6 +48,8 @@
     <!-- 
       Każdy element HTML (nie ważne czy jedno czy dwutagowy) to pudełko. Pudełko???
      -->
+
+    <button>Click me</button>
 
     <div class="box-model">Lorem ipsum dolor sit amet.</div>
   </body>
