@@ -1,0 +1,22 @@
+ol div {
+  background-color: red;
+}
+
+body {
+  background-color: paleturquoise;
+}
+
+.square-container {
+  background-color: white;
+  height: 40vh;
+  padding: 10px;
+  margin: 10px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: cornflowerblue;
+  margin: 5px;
+  border: 1px solid red;
+}
