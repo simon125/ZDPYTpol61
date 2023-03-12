@@ -28,6 +28,7 @@
   <body>
     <h2>Users</h2>
     <hr />
+    <div id="output"></div>
     <table>
       <thead>
         <tr>
@@ -42,7 +43,11 @@
           <td>John</td>
           <td>Doe</td>
           <td>33</td>
-          <td><button class="deleteButton" role="button">&times;</button></td>
+          <td>
+            <button id="deleteButton" class="deleteButton" role="button">
+              &times;
+            </button>
+          </td>
         </tr>
         <tr>
           <td>Jane</td>
@@ -96,6 +101,7 @@
       </thead>
       <tbody id="dynamic-users"></tbody>
     </table>
+
     <script src="./app.js"></script>
   </body>
 </html>

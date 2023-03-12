@@ -15,6 +15,30 @@
  *
  */
 
+fetch("https://jsonplaceholder.typicode.com/todos")
+  .then((response) => {
+    return response.json();
+  })
+  .then((data) => {
+    let htmlTableRows = "";
+
+    for (let i = 0; i < data.length; i++) {
+      htmlTableRows =
+        htmlTableRows +
+        `<tr>
+          <td>${data[i].id}</td>
+          <td>${data[i].title}</td>
+          <td>
+              <input type="checkbox" ${data[i].completed && "checked"}/>
+          </td>
+       </tr>`;
+    }
+
+    const tbody = document.getElementById("todos");
+
+    tbody.innerHTML = htmlTableRows;
+  });
+
 /**
  * ⭐⭐ dodawanie nowego uzytkownika
  */
